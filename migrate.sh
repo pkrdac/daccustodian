@@ -2,7 +2,7 @@
 set -x
 
 #cleoscommand='cleos -u https://node1.eosphere.io '
-cleoscommand='cleos -u https://dev.cryptolions.io:18888'
+cleoscommand='cleos -u http://dev.cryptolions.io:18888'
 
 contract='dacelections'
 account='dacelections'
