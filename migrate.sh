@@ -1,13 +1,14 @@
 #!/bin/sh
 set -x
 
-cleoscommand='cleos -u https://node1.eosphere.io '
+#cleoscommand='cleos -u https://node1.eosphere.io '
+cleoscommand='cleos -u https://dev.cryptolions.io:18888'
 
-contract='daccustodian'
-account='daccustodian'
+contract='dacelections'
+account='dacelections'
 
 function migrateStep {
-	$cleoscommand set contract $contract output/mainnet_votingdisabled/daccustodian
+	$cleoscommand set contract $contract output/jungle/daccustodian
 
 	sleep 1
 
