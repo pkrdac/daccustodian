@@ -1,0 +1,15 @@
+{
+    "auth_threshold_high": 4,
+    "auth_threshold_low": 3,
+    "auth_threshold_mid": 4,
+    "authaccount": "pkrauthority",
+    "initial_vote_quorum_percent": 15,
+    "lockup_release_time_delay": 7776000,
+    "lockupasset": "10000.0000 PKRDAC",
+    "maxvotes": 3,
+    "numelected": 5,
+    "periodlength": 604800,
+    "requested_pay_max": "0.0000 EOS",
+    "tokenholder": "pkrpokerbank",
+    "vote_quorum_percent": 3
+}
