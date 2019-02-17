@@ -11,5 +11,7 @@
     "periodlength": 604800,
     "requested_pay_max": "0.0000 EOS",
     "tokenholder": "pkrpokerbank",
-    "vote_quorum_percent": 3
+    "vote_quorum_percent": 3,
+    "serviceprovider": "pkrpokerdacs",
+    "should_pay_via_service_provider": 1
 }
